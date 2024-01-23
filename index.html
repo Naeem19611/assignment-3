@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey's</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/hockey.png" type="image/x-icon">
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet">
+    <!-- Tailwind and Daisy UI CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Shared Style -->
+    <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    textColor: '#131318',
+                    buttonColor: '#FF4240'
+                  }
+                }
+              }
+            }
+          </script>
+    <style>
+            .textColor {
+                color: #131318;
+            }
+            .buttonColor {
+                color: #FF4240;
+            }
+          </style>
+  </head>
+  <body>
+    <header class="container mx-auto lg:px-24 py-8">
+      <!-- navbar code start -->
+      <nav>
+        <div class="navbar text-[#424247]">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor"><path
+                    stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 rounded-box w-52  font-semibold">
+                <li class="text-[#FF4240;]"><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class="textColor text-3xl font-bold">Hockey<span
+                class="buttonColor">’</span>s</a>
+          </div>
+          <div
+            class="navbar-center hidden lg:flex text-[#424247] font-semibold">
+            <ul class="menu menu-horizontal px-1">
+              <li class="text-[#FF4240;]"><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a
+              class="btn px-6 py-4 text-white bg-[#FF4240;] outline outline-offset-2 outline-slate-200 hover:text-black hover:bg-orange-400 duration-1000">Get
+              Ticket</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Carousel -->
+      <section class="container mx-auto lg:px-24 py-8">
+        <div class="carousel w-[100%] h-auto ">
+          <!-- slide 1 -->
+          <div id="slide1"
+            class="carousel-item relative w-full bg-[url(images/1.png)] bg-cover bg-no-repeat rounded-2xl h-[60vh] ">
+            <!-- Large device -->
+            <div
+              class="absolute hidden lg:block bg-[#131318;] lg:px-5 lg:py-9 rounded-2xl bottom-0 right-0 translate-x-[-20px] translate-y-[-20px]">
+              <h2 class="text-white text-2xl font-semibold">Meet all the heroes
+                from the field</h2>
+              <p class="lg:w-[500px] font-extralight text-gray-500">Are you
+                asking about heroes from a specific field, such as sports,
+                science, literature, or any other area? </p>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <!-- slide 2 -->
+          <div id="slide2"
+            class="carousel-item relative w-full bg-[url(images/2.png)] bg-cover bg-no-repeat rounded-2xl h-[60vh] ">
+            <!-- Large device -->
+            <div
+              class="absolute hidden lg:block bg-[#131318;] lg:px-5 lg:py-9 rounded-2xl bottom-0 right-0 translate-x-[-20px] translate-y-[-20px]">
+              <h2 class="text-white text-2xl font-semibold">Meet all the heroes
+                from the field</h2>
+              <p class="lg:w-[500px] font-extralight text-gray-500">Are you
+                asking about heroes from a specific field, such as sports,
+                science, literature, or any other area? </p>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <!-- slide 3 -->
+          <div id="slide3"
+            class="carousel-item relative w-full  bg-[url(images/3.png)] bg-cover bg-no-repeat rounded-2xl h-[60vh] ">
+            <div
+              class="absolute hidden lg:block bg-[#131318;] lg:px-5 lg:py-9 rounded-2xl bottom-0 right-0 translate-x-[-20px] translate-y-[-20px]">
+              <h2 class="text-white text-2xl font-semibold">Meet all the heroes
+                from the field</h2>
+              <p class="lg:w-[500px] font-extralight text-gray-500">Are you
+                asking about heroes from a specific field, such as sports,
+                science, literature, or any other area? </p>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <!-- slide 4 -->
+          <div id="slide4"
+            class="carousel-item relative w-full  bg-[url(images/4.png)] bg-cover bg-no-repeat rounded-2xl h-[60vh] ">
+            <div
+              class="absolute hidden lg:block bg-[#131318;] lg:px-5 lg:py-9 rounded-2xl bottom-0 right-0 translate-x-[-20px] translate-y-[-20px]">
+              <h2 class="text-white text-2xl font-semibold">Meet all the heroes
+                from the field</h2>
+              <p class="lg:w-[500px] font-extralight text-gray-500">Are you
+                asking about heroes from a specific field, such as sports,
+                science, literature, or any other area? </p>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- small device -->
+      <div class="container mx-auto px-4">
+        <div
+          class=" lg:hidden bg-[#131318;] px-3 py-5 rounded-2xl bottom-0 right-0 ">
+          <h2 class="text-white text-xl font-semibold">Meet all the heroes from
+            the field</h2>
+          <p class="w-[100%] font-extralight text-gray-500">Are you asking
+            about heroes from a specific field, such as sports, science,
+            literature, or any other area? </p>
+        </div>
+      </div>
+
+      <!-- Progress Bar Section Code -->
+      <div><hr class="border-dashed lg:w-[80%] mx-auto mt-5"></div>
+      <section class="container mx-auto lg:px-24 py-8">
+        <div class="text-center">
+          <h1 class="text-[#131318;] text-2xl lg:text-4xl font-bold">Professional Hockeys Club</h1>
+          <p class="m-5 text-gray-500">There are numerous professional hockey clubs around the world, and
+            I'll mention <br> some of the well-known ones from different leagues</p>
+        </div>
+        <div><hr class="border-dashed lg:w-[100%] mx-auto mt-7"></div>
+        <!-- Progress Bar -->
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 mt-7">
+          <div class="flex flex-col items-center space-y-3">
+            <div class="radial-progress text-[#FF4240;]" style="--value:87;" role="progressbar"><span class="text-black text-xl font-bold">87</span></div>
+            <h4 class="text-xl font-bold">Prayer Facility</h4>
+            <p class="text-center font-normal text-[16px]">A prayer facility is a designated space or area where individuals or groups can engage in prayer, meditation.</p>
+          </div>
+          <div class="flex flex-col items-center space-y-3 ">
+            <div class="radial-progress text-[#49D293;] " style="--value:95;" role="progressbar"><span class="text-black text-xl font-bold">95</span></div>
+            <h4 class="text-xl font-bold">Experienced Coach</h4>
+            <p class="text-center font-normal text-[16px]">A prayer facility is a designated space or area where individuals or groups can engage in prayer, meditation.</p>
+          </div>
+          <div class="flex flex-col items-center space-y-3 ">
+            <div class="radial-progress text-yellow-300" style="--value:95;" role="progressbar"><span class="text-black text-xl font-bold">95</span></div>
+            <h4 class="text-xl font-bold">Senior Player</h4>
+            <p class="text-center font-normal text-[16px]">A prayer facility is a designated space or area where individuals or groups can engage in prayer, meditation.</p>
+          </div>
+          <div class="flex flex-col items-center space-y-3 ">
+            <div class="radial-progress text-[#4C8DF1;]" style="--value:95;" role="progressbar"><span class="text-black text-xl font-bold">95</span></div>
+            <h4 class="text-xl font-bold">Training Ground</h4>
+            <p class="text-center font-normal text-[16px]">A prayer facility is a designated space or area where individuals or groups can engage in prayer, meditation.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Program Sections Code -->
+      <div><hr class="border-dashed lg:w-[80%] mx-auto mt-7"></div>
+      <section class="container mx-auto lg:px-24 py-8">
+        <div class="text-center">
+          <h1 class="text-[#131318;] text-2xl lg:text-4xl font-bold">Program Sections</h1>
+          <p class="m-5 text-gray-500">There are numerous professional hockey clubs around the world, and
+            I'll mention <br> some of the well-known ones from different leagues</p>
+        </div>
+        <div><hr class="border-dashed lg:w-[100%] mx-auto mt-7"></div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-7">
+          <div class="relative">
+            <img src="images/2.png" alt="">
+            <div class="absolute space-y-3 text-white top-10 left-4 lg:mt-8 lg:ml-4">
+              <h2 class="text-2xl font-semibold">Junior Program</h2>
+              <p class="w-[90%] lg:w-[50%]">Junior Program could refer to different things depending on the context. Here are a couple of possible interpretations.</p>
+              <button class="px-5 py-2 rounded-md text-white bg-[#FF4240;]">Register Now!</button>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="images/3.png" alt="">
+            <div class="absolute space-y-3 text-white top-10 left-4 lg:mt-8 lg:ml-4">
+              <h2 class="text-2xl font-semibold">Teenager Program</h2>
+              <p class="w-[90%] lg:w-[50%]">Junior Program could refer to different things depending on the context. Here are a couple of possible interpretations.</p>
+              <button class="px-5 py-2 rounded-md text-white bg-[#FF4240;]">Register Now!</button>
+            </div>
+          </div>
+        </div>      
+      </section>
+
+      <section class="container mx-auto lg:px-24 ">
+        <div class="relative grid grid-cols-1">
+            <div>
+              <img class="w-[100%] h-[250px] lg:h-[100%] object-cover bg-cover rounded-2xl" src="images/4.png" alt="">
+              <div class="absolute space-y-3 text-white top-10 left-4 lg:mt-40 lg:ml-5">
+                <h2 class="text-2xl font-semibold">Professional Program</h2>
+                <p class="w-[90%] lg:w-[50%]">Junior Program could refer to different things depending on the context. Here are a couple of possible interpretations.</p>
+                <button class="px-5 py-2 rounded-md text-white bg-[#FF4240;]">Register Now!</button>
+              </div>
+            </div> 
+        </div>
+      </section>
+       
+      <!-- Products Section -->
+      <div><hr class="border-dashed lg:w-[80%] mx-auto mt-7"></div>
+      <section class="container mx-auto lg:px-24 py-8">
+        <div class="text-center">
+          <h1 class="text-[#131318;] text-2xl lg:text-4xl font-bold">Our New Products</h1>
+          <p class="m-5 text-gray-500"> I'd be happy to help you with information or suggestions regarding your new products. <br> However, since I don't have specific details about your products.</p>
+        </div>
+        <div><hr class="border-dashed lg:w-[100%] mx-auto mt-7"></div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+          
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+  </body>
+</html>
