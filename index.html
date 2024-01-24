@@ -41,11 +41,11 @@
           </style>
   </head>
   <body>
-    <header class="container mx-auto px-6 py-2 lg:px-24 lg:py-8">
+    <header class="container mx-auto  px-0 py-2 lg:px-24 lg:py-8">
       <!-- navbar code start -->
       <nav>
-        <div class="navbar  text-[#424247]">
-          <div class="navbar-start">
+        <div class="navbar text-[#424247]">
+          <div class="navbar-start space-x-3">
             <div class="dropdown">
               <div tabindex="0" role="button" class="lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
@@ -62,7 +62,7 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="textColor text-3xl font-bold">Hockey<span
+            <a class="textColor text-xl lg:text-3xl font-bold">Hockey<span
                 class="buttonColor">’</span>s</a>
           </div>
           <div
@@ -75,9 +75,10 @@
               <li><a>Contact</a></li>
             </ul>
           </div>
-          <div class="navbar-end">
+          <div class="navbar-end flex space-x-4">
+            <div class="cursor-pointer"><i class="fa-solid fa-magnifying-glass"></i></div>
             <a
-              class="btn px-6 py-4 text-white bg-[#FF4240;] outline outline-offset-2 outline-slate-200 hover:text-black hover:bg-orange-400 duration-1000">Get
+              class="btn lg:px-6 lg:py-4 text-white bg-[#FF4240;] outline outline-offset-2 outline-slate-200 hover:text-black hover:bg-orange-400 duration-1000">Get
               Ticket</a>
           </div>
         </div>
@@ -90,7 +91,7 @@
         <div class="carousel w-[100%] h-auto ">
           <!-- slide 1 -->
           <div id="slide1"
-            class="carousel-item relative w-full bg-[url(images/1.png)] bg-cover bg-no-repeat rounded-2xl h-[60vh] ">
+            class="carousel-item relative w-full bg-[url(images/1.png)] bg-cover bg-no-repeat bg-center rounded-2xl h-[60vh] ">
             <!-- Large device -->
             <div
               class="absolute hidden lg:block bg-[#131318;] lg:px-5 lg:py-9 rounded-2xl bottom-0 right-0 translate-x-[-20px] translate-y-[-20px]">
@@ -108,7 +109,7 @@
           </div>
           <!-- slide 2 -->
           <div id="slide2"
-            class="carousel-item relative w-full bg-[url(images/2.png)] bg-cover bg-no-repeat rounded-2xl h-[60vh] ">
+            class="carousel-item relative w-full bg-[url(images/2.png)] bg-cover bg-no-repeat bg-center rounded-2xl h-[60vh] ">
             <!-- Large device -->
             <div
               class="absolute hidden lg:block bg-[#131318;] lg:px-5 lg:py-9 rounded-2xl bottom-0 right-0 translate-x-[-20px] translate-y-[-20px]">
@@ -126,7 +127,7 @@
           </div>
           <!-- slide 3 -->
           <div id="slide3"
-            class="carousel-item relative w-full  bg-[url(images/3.png)] bg-cover bg-no-repeat rounded-2xl h-[60vh] ">
+            class="carousel-item relative w-full  bg-[url(images/3.png)] bg-cover bg-no-repeat bg-center  rounded-2xl h-[60vh] ">
             <div
               class="absolute hidden lg:block bg-[#131318;] lg:px-5 lg:py-9 rounded-2xl bottom-0 right-0 translate-x-[-20px] translate-y-[-20px]">
               <h2 class="text-white text-2xl font-semibold">Meet all the heroes
@@ -143,7 +144,7 @@
           </div>
           <!-- slide 4 -->
           <div id="slide4"
-            class="carousel-item relative w-full  bg-[url(images/4.png)] bg-cover bg-no-repeat rounded-2xl h-[60vh] ">
+            class="carousel-item relative w-full  bg-[url(images/4.png)] bg-cover bg-no-repeat bg-center  rounded-2xl h-[60vh] ">
             <div
               class="absolute hidden lg:block bg-[#131318;] lg:px-5 lg:py-9 rounded-2xl bottom-0 right-0 translate-x-[-20px] translate-y-[-20px]">
               <h2 class="text-white text-2xl font-semibold">Meet all the heroes
@@ -207,7 +208,7 @@
       </section>
 
       <!-- Program Sections Code -->
-      <div><hr class="border-dashed lg:w-[80%] mx-auto mt-7"></div>
+      <div><hr class="border-dashed w-[100%] lg:w-[80%] mx-auto mt-7"></div>
       <section class="container mx-auto lg:px-24 py-8">
         <div class="text-center">
           <h1 class="text-[#131318;] text-2xl lg:text-4xl font-bold">Program Sections</h1>
@@ -218,19 +219,19 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-7">
           <div class="relative">
-            <img src="images/2.png" alt="">
-            <div class="absolute space-y-3 text-white top-10 left-4 lg:mt-8 lg:ml-4">
+            <img class="w-[100%] h-[250px] lg:h-[100%] object-cover bg-cover rounded-2xl"  src="images/2.png" alt="">
+            <div class="absolute space-y-3 text-white top-6 left-4 lg:mt-8 lg:ml-4">
               <h2 class="text-2xl font-semibold">Junior Program</h2>
-              <p class="w-[90%] lg:w-[50%]">Junior Program could refer to different things depending on the context. Here are a couple of possible interpretations.</p>
-              <button class="px-5 py-2 rounded-md text-white bg-[#FF4240;]">Register Now!</button>
+              <p class="w-[90%] lg:w-[50%]">Junior Program could refer to different things depending on the context.</p>
+              <button class="px-2 lg:px-5 py-2 rounded-md text-white bg-[#FF4240;]">Register Now!</button>
             </div>
           </div>
           <div class="relative">
-            <img src="images/3.png" alt="">
-            <div class="absolute space-y-3 text-white top-10 left-4 lg:mt-8 lg:ml-4">
+            <img class="w-[100%] h-[250px] lg:h-[100%] object-cover bg-cover rounded-2xl"  src="images/3.png" alt="">
+            <div class="absolute space-y-2 lg:space-y-3 text-white top-10 left-4 lg:mt-8 lg:ml-4">
               <h2 class="text-2xl font-semibold">Teenager Program</h2>
-              <p class="w-[90%] lg:w-[50%]">Junior Program could refer to different things depending on the context. Here are a couple of possible interpretations.</p>
-              <button class="px-5 py-2 rounded-md text-white bg-[#FF4240;]">Register Now!</button>
+              <p class="w-[90%] lg:w-[50%]">Junior Program could refer to different things depending on the context.</p>
+              <button class="px-2 lg:px-5 py-2 rounded-md text-white bg-[#FF4240;]">Register Now!</button>
             </div>
           </div>
         </div>      
@@ -242,8 +243,8 @@
               <img class="w-[100%] h-[250px] lg:h-[100%] object-cover bg-cover rounded-2xl" src="images/4.png" alt="">
               <div class="absolute space-y-3 text-white top-10 left-4 lg:mt-40 lg:ml-5">
                 <h2 class="text-2xl font-semibold">Professional Program</h2>
-                <p class="w-[90%] lg:w-[50%]">Junior Program could refer to different things depending on the context. Here are a couple of possible interpretations.</p>
-                <button class="px-5 py-2 rounded-md text-white bg-[#FF4240;]">Register Now!</button>
+                <p class="w-[90%] lg:w-[50%]">Junior Program could refer to different things depending on the context.</p>
+                <button class="px-2 lg:px-5 py-2 rounded-md text-white bg-[#FF4240;]">Register Now!</button>
               </div>
             </div> 
         </div>
@@ -260,11 +261,11 @@
         <!-- Products -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-7 ">
           <div class="bg-[#fff] lg:w-[100%] border-2 drop-shadow-md border-gray-200 p-5 rounded-2xl">
-            <div class="flex items-center">
-              <div class="lg:w-[100%]"><img src="images/5.png" alt=""></div>
+            <div class="flex flex-col lg:flex-row items-center">
+              <div class="w-[100%]"><img class="w-[100%]" src="images/5.png" alt=""></div>
               
-              <div class="space-y-2">
-                <div class="space-x-3">
+              <div class="space-y-2 lg:pl-3 lg:text-left text-center">
+                <div class="mt-2 lg:mt-0 space-x-3 ">
                   <i class="fa-solid fa-star text-yellow-400"></i><span>5.0</span>
                   <i class="fa-regular fa-eye"></i><span>20</span>
                   <i class="fa-solid fa-heart text-red-500"></i></i><span>200</span>
@@ -272,7 +273,7 @@
                 <h2 class="text-[#131318;] font-semibold text-xl">World Cup Flags Football</h2>
                 <p class="text-sm">It sounds like you're interested in creating or selling World Cup Flags football-related products. </p>
                 <div class="flex items-center gap-3">
-                  <span class="text-[#FF4240;] text-lg lg:font-bold">Price-$22.00</span>
+                  <span class="text-[#FF4240;] lg:text-lg lg:font-bold">Price-$22.00</span>
                   <i class="fa-solid fa-cart-shopping text-blue-600"></i><span>Delivery fee:Free</span>
                 </div>
               </div>
@@ -281,11 +282,11 @@
           </div>
 
           <div class="bg-[#fff] lg:w-[100%] border-2 drop-shadow-md border-gray-200 p-5 rounded-2xl">
-            <div class="flex items-center">
-              <div class="lg:w-[100%]"><img src="images/6.png" alt=""></div>
+            <div class="flex flex-col lg:flex-row  items-center">
+              <div class="lg:w-[100%]"><img class="w-[100%]" src="images/6.png" alt=""></div>
               
-              <div class="space-y-2">
-                <div class="space-x-3">
+              <div class="space-y-2 lg:pl-3 lg:text-left text-center">
+                <div class="mt-2 lg:mt-0 space-x-3">
                   <i class="fa-solid fa-star text-yellow-400"></i><span>5.0</span>
                   <i class="fa-regular fa-eye"></i><span>20</span>
                   <i class="fa-solid fa-heart text-red-500"></i></i><span>200</span>
@@ -293,7 +294,7 @@
                 <h2 class="text-[#131318;] font-semibold text-xl">World Cup Flags Football</h2>
                 <p class="text-sm">It sounds like you're interested in creating or selling World Cup Flags football-related products. </p>
                 <div class="flex items-center gap-3">
-                  <span class="text-[#FF4240;] text-lg lg:font-bold">Price-$40.00</span>
+                  <span class="text-[#FF4240;] lg:text-lg lg:font-bold">Price-$40.00</span>
                   <i class="fa-solid fa-cart-shopping text-blue-600"></i><span>Delivery fee:Free</span>
                 </div>
               </div>
@@ -302,11 +303,11 @@
           </div>
 
           <div class="bg-[#fff] w-[100%] border-2 drop-shadow-md border-gray-200 p-5 rounded-2xl">
-            <div class="flex items-center">
-              <div class="w-[100%]"><img src="images/7.png" alt=""></div>
+            <div class="flex flex-col lg:flex-row  items-center">
+              <div class="w-[100%]"><img class="w-[100%]" src="images/7.png" alt=""></div>
               
-              <div class="space-y-2">
-                <div class="space-x-3">
+              <div class="space-y-2 lg:pl-3 lg:text-left text-center">
+                <div class="mt-2 lg:mt-0 space-x-3">
                   <i class="fa-solid fa-star text-yellow-400"></i><span>5.0</span>
                   <i class="fa-regular fa-eye"></i><span>20</span>
                   <i class="fa-solid fa-heart text-red-500"></i></i><span>200</span>
@@ -314,7 +315,7 @@
                 <h2 class="text-[#131318;] font-semibold text-xl">World Cup Flags Football</h2>
                 <p class="text-sm">It sounds like you're interested in creating or selling World Cup Flags football-related products. </p>
                 <div class="flex items-center gap-3">
-                  <span class="text-[#FF4240;] text-lg lg:font-bold">Price-$30.00</span>
+                  <span class="text-[#FF4240;] lg:text-lg lg:font-bold">Price-$30.00</span>
                   <i class="fa-solid fa-cart-shopping text-blue-600"></i><span>Delivery fee:Free</span>
                 </div>
               </div>     
@@ -322,11 +323,11 @@
           </div>
 
           <div class="bg-[#fff] w-[100%] border-2 drop-shadow-md border-gray-200 p-5 rounded-2xl">
-            <div class="flex items-center">
-              <div class="w-[100%]"><img src="images/8.png" alt=""></div>
+            <div class="flex flex-col lg:flex-row items-center">
+              <div class="w-[100%]"><img class="w-[100%]" src="images/8.png" alt=""></div>
               
-              <div class="space-y-2">
-                <div class="space-x-3">
+              <div class="space-y-2 lg:pl-3 text-center lg:text-left">
+                <div class="mt-2 lg:mt-0 space-x-3">
                   <i class="fa-solid fa-star text-yellow-400"></i><span>5.0</span>
                   <i class="fa-regular fa-eye"></i><span>20</span>
                   <i class="fa-solid fa-heart text-red-500"></i></i><span>200</span>
@@ -334,7 +335,7 @@
                 <h2 class="text-[#131318;] font-semibold text-xl">World Cup Flags Football</h2>
                 <p class="text-sm">It sounds like you're interested in creating or selling World Cup Flags football-related products. </p>
                 <div class="flex items-center gap-3">
-                  <span class="text-[#FF4240;] text-lg lg:font-bold">Price-$25.00</span>
+                  <span class="text-[#FF4240;] lg:text-lg lg:font-bold">Price-$25.00</span>
                   <i class="fa-solid fa-cart-shopping text-blue-600"></i><span>Delivery fee:Free</span>
                 </div>
               </div>     
@@ -342,11 +343,11 @@
           </div>
 
           <div class="bg-[#fff] w-[100%] border-2 drop-shadow-md border-gray-200 p-5 rounded-2xl">
-            <div class="flex items-center">
-              <div class="w-[100%]"><img src="images/9.png" alt=""></div>
+            <div class="flex flex-col lg:flex-row items-center">
+              <div class="w-[100%]"><img class="w-[100%]" src="images/9.png" alt=""></div>
               
-              <div class="space-y-2">
-                <div class="space-x-3">
+              <div class="space-y-2 text-center lg:pl-3 lg:text-left">
+                <div class="mt-2 lg:mt-0 space-x-3">
                   <i class="fa-solid fa-star text-yellow-400"></i><span>5.0</span>
                   <i class="fa-regular fa-eye"></i><span>20</span>
                   <i class="fa-solid fa-heart text-red-500"></i></i><span>200</span>
@@ -354,7 +355,7 @@
                 <h2 class="text-[#131318;] font-semibold text-xl">World Cup Flags Football</h2>
                 <p class="text-sm">It sounds like you're interested in creating or selling World Cup Flags football-related products. </p>
                 <div class="flex items-center gap-3">
-                  <span class="text-[#FF4240;] text-lg lg:font-bold">Price-$21.00</span>
+                  <span class="text-[#FF4240;] lg:text-lg lg:font-bold">Price-$21.00</span>
                   <i class="fa-solid fa-cart-shopping text-blue-600"></i><span>Delivery fee:Free</span>
                 </div>
               </div>     
@@ -362,11 +363,11 @@
           </div>
 
           <div class="bg-[#fff] w-[100%] border-2 drop-shadow-md border-gray-200 p-5 rounded-2xl">
-            <div class="flex items-center">
-              <div class="w-[100%]"><img src="images/10.png" alt=""></div>
+            <div class="flex flex-col lg:flex-row items-center">
+              <div class="w-[100%]"><img class="w-[100%]" src="images/10.png" alt=""></div>
               
-              <div class="space-y-2">
-                <div class="space-x-3">
+              <div class="space-y-2 text-center lg:pl-3 lg:text-left">
+                <div class="mt-2 lg:mt-0 space-x-3">
                   <i class="fa-solid fa-star text-yellow-400"></i><span>5.0</span>
                   <i class="fa-regular fa-eye"></i><span>20</span>
                   <i class="fa-solid fa-heart text-red-500"></i></i><span>200</span>
@@ -374,7 +375,7 @@
                 <h2 class="text-[#131318;] font-semibold text-xl">World Cup Flags Football</h2>
                 <p class="text-sm">It sounds like you're interested in creating or selling World Cup Flags football-related products. </p>
                 <div class="flex items-center gap-3">
-                  <span class="text-[#FF4240;] text-lg lg:font-bold">Price-$20.00</span>
+                  <span class="text-[#FF4240;] lg:text-lg lg:font-bold">Price-$20.00</span>
                   <i class="fa-solid fa-cart-shopping text-blue-600"></i><span>Delivery fee:Free</span>
                 </div>
               </div>     
@@ -604,8 +605,10 @@
               <li><a href="">Hockeys for Adult/a></li>
             </div>
           </div>
-
         </div>
+       <div class="text-gray-500 text-sm lg:text-md text-center pt-5 font-medium">
+        <p>Copyright © 2024 - All right reserved <span class="text-red-500">NAEEM</span></p>
+       </div>
       </section>
     </footer>
   </body>
